@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.background {
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    width: 120%;
+    height: 120%;
+    background-image: url('Обои.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.navigate {
+    margin-top: 2%;
+    gap: 20px;
+    display: inline-flex;
+}
+
+.nav-item {
+    padding: 10px;
+    color: #F8F7F9;
+    font-size: 18px;
+    font-family: Dancing Script;
+    font-size: 1.2vw;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+.project{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 120%; 
+    height: 850px;
+    margin-left: -10%;
+}
