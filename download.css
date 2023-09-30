@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background {
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    width: 120%;
+    height: 120%;
+    background-image: url('Обои.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.navigate {
+    margin-top: 2%;
+    gap: 20px;
+    display: inline-flex;
+}
+
+.nav-item {
+    padding: 10px;
+    color: #F8F7F9;
+    font-size: 18px;
+    font-family: Dancing Script;
+    font-size: 1.2vw;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.content{
+margin-top: 15%;
+text-align: center;
+}
+
+.content-text {
+    color: white;
+    font-size: 64px;
+    font-family: Dancing Script;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.download-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    gap: 70px;
+    display: inline-flex;
+}
+
+.option {
+    color: #FF0000;
+    font-size: 64px;
+    font-family: Dancing Script;
+    font-weight: 400;
+    word-wrap: break-word;
+    gap: 20px;
+    display: inline-flex;
+}
+
+.download-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    margin-top: 5%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 20px;
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.download-button.pdf {
+    background-color: #0073ff;
+}
+
+.download-button.doc {
+    background-color: #0073ff; /* Змініть колір за потребою */
+}
+
+.download-button:hover {
+    background-color: #796868;
+}
+
+
+
+
+
