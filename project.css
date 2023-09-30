@@ -34,7 +34,9 @@ body, html {
     font-weight: 400;
     word-wrap: break-word;
 }
-
+.nav-item a{
+    color: #F8F7F9;
+}
 
 .project{
     margin-top: 10%;
