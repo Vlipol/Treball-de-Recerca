@@ -6,23 +6,6 @@ document.addEventListener('mousemove', (e) => {
     bg.style.transform = `translate(${x * 20}px, ${y * 20}px)`;
 });
 
-function downloadFile(fileType) {
-    var link = document.createElement("a");
-    var filePath;
-
-    if (fileType === 'pdf') {
-        filePath = 'Trebal de Recerca-Mykhailo Palchynskyi (2).pdf'; // Замініть це на шлях до вашого PDF файлу
-    } else if (fileType === 'doc') {
-        filePath = 'Trebal de Recerca-Mykhailo Palchynskyi (2).docx'; // Замініть це на шлях до вашого DOC файлу
-    }
-
-    link.href = filePath;
-    link.download = filePath.split('/').pop(); // Отримуємо ім'я файлу з шляху
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
-
 document.addEventListener('DOMContentLoaded', function() {
     const navItems = document.querySelectorAll('.nav-item');
     const contents = document.querySelectorAll('.content');
