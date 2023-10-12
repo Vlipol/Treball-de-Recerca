@@ -11,9 +11,9 @@ function downloadFile(fileType) {
     var filePath;
 
     if (fileType === 'pdf') {
-        filePath = 'шлях_до_pdf_файлу.pdf'; // Замініть це на шлях до вашого PDF файлу
+        filePath = 'Trebal de Recerca-Mykhailo Palchynskyi (2).pdf'; // Замініть це на шлях до вашого PDF файлу
     } else if (fileType === 'doc') {
-        filePath = 'шлях_до_doc_файлу.doc'; // Замініть це на шлях до вашого DOC файлу
+        filePath = 'Trebal de Recerca-Mykhailo Palchynskyi (2).docx'; // Замініть це на шлях до вашого DOC файлу
     }
 
     link.href = filePath;
