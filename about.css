@@ -1,36 +1,17 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  .navigate {
-    margin-top: 2%;
-    gap: 20px;
-    display: inline-flex;
-}
+    .navigate {
+        gap: 20px;
+    }
+    
+    .nav-item {
+        font-size: 0.8vw;
+    }
 
-.nav-item {
-    padding: 10px;
-    color: #F8F7F9;
-    font-size: 25px;
-    font-family: Dancing Script;
-    font-size: 1.3vw;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-.nav-item a{
-    color: #F8F7F9;
-}
-.about {
-    margin-top: 15%;  
-    margin-bottom: 5%;
-    width: 80%;
-    height: 85%;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    font-family: Dancing Script;
-    font-weight: 400;
-    word-wrap: break-word;
+    .about {
+        font-size: 20px;
+    }
 }
   
-}
 
 @media (orientation: portrait) {
   /* CSS для екранів у портретному режимі */
