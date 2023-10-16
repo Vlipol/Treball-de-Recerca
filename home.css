@@ -1,3 +1,11 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS для екранів від 768px до 1024px шириною */
+}
+
+@media (orientation: portrait) {
+  /* CSS для екранів у портретному режимі */
+}
+
 body, html {
     margin: 0;
     height: 100%;
