@@ -28,7 +28,17 @@
   
 
 @media (orientation: portrait) {
-  /* CSS для екранів у портретному режимі */
+      .navigate {
+        gap: 20px;
+    }
+    
+    .nav-item {
+        font-size: 0.8vw;
+    }
+
+    .about {
+        font-size: 20px;
+    }
 }
 
 body, html {
