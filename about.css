@@ -16,20 +16,21 @@
 
 @media (orientation: portrait) {
       .navigate {
-        gap: 25px;
-          height: 10%;
-          weight: 90%;
-          
-    }
-    
-    .nav-item {
-        font-size: 15px;
-    }
+    margin-top: 2%;
+    gap: 30px;
+    height: 15%;
+    display: center;
+    display: inline-flex;
+}
 
-    .about {
-        font-size: 15px;
-        
-    }
+.nav-item {
+    padding: 10px;
+    color: #F8F7F9;
+    font-size: 20px;
+    font-family: Dancing Script;
+    font-weight: 500;
+    word-wrap: break-word;
+}
 }
 
 body, html {
