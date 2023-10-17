@@ -34,7 +34,7 @@ body, html {
         padding: 7px;
         color: #F8F7F9;
         font-size: 18px;
-        font-family: Dancing Script, cursive;
+        font-family: 'Redressed', cursive;
         word-wrap: break-word;
     }
     
@@ -75,7 +75,7 @@ body, html {
         padding: 10px;
         color: #F8F7F9;
         font-size: 25px;
-        font-family: Dancing Script, cursive;
+        font-family: 'Redressed', cursive;
         word-wrap: break-word;
     }
     
@@ -116,7 +116,7 @@ body, html {
         padding: 10px;
         color: #F8F7F9;
         font-size: 25px;
-        font-family: Dancing Script, cursive;
+        font-family: 'Redressed', cursive;
         font-weight: 400;
         word-wrap: break-word;
     }
