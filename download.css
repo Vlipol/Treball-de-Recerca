@@ -38,60 +38,60 @@ body, html {
         word-wrap: break-word;
     }
     
-        .content{
-            margin-top: 20%;
-            margin-bottom: 20%;
-            text-align: center;
-            }
+    .content{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        text-align: center;
+       }
         
-        .content-text {
-            color: white;
-            font-size: 25px;
-            font-family: Dancing Script;
-            word-wrap: break-word;
-        }
+    .content-text {
+        color: white;
+        font-size: 25px;
+        font-family: Dancing Script;
+        word-wrap: break-word;
+    }
         
-        .download-options {
-            display: flex;
-            justify-content: center;
-            margin-top: 25%;
-            gap: 70px;
-            display: inline-flex, center, ;
-            display: table-column;
-        }
+    .download-options {
+        display: flex;
+        justify-content: center;
+        margin-top: 25%;
+        gap: 70px;
+        display: inline-flex, center, ;
+        display: table-column;
+    }
         
-        .option {
-            color: #FF0000;
-            font-size: 64px;
-            font-family: Dancing Script;
-            font-weight: 400;
-            word-wrap: break-word;
-            gap: 20px;
-            display: inline-flex, center;
-        }
+    .option {
+        color: #FF0000;
+        font-size: 64px;
+        font-family: Dancing Script;
+        font-weight: 400;
+        word-wrap: break-word;
+        gap: 20px;
+        display: inline-flex, center;
+    }
         
-        .download-options {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin-top: 20px;
-        }
+    .download-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
         
-        .download-button {
-            margin-top: 15%;
-            padding: 10px 20px;
-            font-size: 18px;
-            background-color: #FF0000;
-            color: #FFFFFF;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            display: inline-flex, center;
-            gap: 20px;
-            font-family: 'Dancing Script';
-            font-weight: 400;
-            word-wrap: break-word;
-        }
+    .download-button {
+        margin-top: 15%;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #FF0000;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-flex, center;
+        gap: 20px;
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        word-wrap: break-word;
+    }
         
         .download-button.pdf {
             background-color: #0073ff;
