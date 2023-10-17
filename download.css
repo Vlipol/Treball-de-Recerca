@@ -1,9 +1,88 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* CSS для екранів від 768px до 1024px шириною */
+    .navigate {
+    margin-top: 2%;
+    gap: 30px;
+    height: 15%;
+    display: center;
+    display: inline-flex;
 }
 
+.nav-item {
+    padding: 10px;
+    color: #F8F7F9;
+    font-size: 20px;
+    font-family: Dancing Script;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.download-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    margin-top: 5%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 20px;
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.download-options .download-button a {
+    color: white;
+}
+
+.download-button.pdf {
+    background-color: #0073ff;
+}
+
+.download-button.doc {
+    background-color: #0073ff; /* Змініть колір за потребою */
+}
+
+.download-button:hover {
+    background-color: #796868;
+}
+}
+  
+
 @media (orientation: portrait) {
-  /* CSS для екранів у портретному режимі */
+      .navigate {
+    margin-top: 2%;
+    gap: 30px;
+    height: 15%;
+    display: center;
+    display: inline-flex;
+}
+
+.nav-item {
+    padding: 10px;
+    color: #F8F7F9;
+    font-size: 20px;
+    font-family: Dancing Script;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+    .about {
+    margin-top: 15%;  
+    margin-bottom: 5%;
+    width: 90%;
+    height: 85%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Dancing Script;
+    font-weight: 500;
+    word-wrap: break-word;
 }
 
 body, html {
