@@ -1,16 +1,33 @@
 /* Додамо медіа-запит для навігаційної панелі та про мене */
 @media (min-width: 768px) and (max-width: 1024px) {
     .navigate {
-        gap: 20px;
-    }
-    
-    .nav-item {
-        font-size: 0.8vw;
-    }
+    margin-top: 2%;
+    gap: 30px;
+    height: 15%;
+    display: center;
+    display: inline-flex;
+}
 
+.nav-item {
+    padding: 10px;
+    color: #F8F7F9;
+    font-size: 20px;
+    font-family: Dancing Script;
+    font-weight: 500;
+    word-wrap: break-word;
+}
     .about {
-        font-size: 20px;
-    }
+    margin-top: 15%;  
+    margin-bottom: 5%;
+    width: 90%;
+    height: 85%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Dancing Script;
+    font-weight: 500;
+    word-wrap: break-word;
+}
 }
   
 
