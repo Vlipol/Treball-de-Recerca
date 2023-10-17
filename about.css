@@ -29,15 +29,15 @@
 
 @media (orientation: portrait) {
       .navigate {
-        gap: 20px;
+        gap: 25px;
     }
     
     .nav-item {
-        font-size: 0.8vw;
+        font-size: 10px;
     }
 
     .about {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
