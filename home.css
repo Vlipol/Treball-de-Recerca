@@ -24,14 +24,14 @@ body, html {
         margin-top: 2%;
         position: center;
         display: center;
-        gap: 12px;
+        gap: 10px;
         height: 15%;
         display: inline-flex;
     }
     
     .fs-4 {
         position: center;
-        padding: 10px;
+        padding: 7px;
         color: #F8F7F9;
         font-size: 18px;
         font-family: Dancing Script;
