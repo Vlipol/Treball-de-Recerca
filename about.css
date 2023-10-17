@@ -1,16 +1,3 @@
-/* Загальні стилі для навігаційної панелі та про мене */
-.navigate {
-    gap: 30px; /* Збільшуємо проміжок між елементами навігації */
-}
-
-.nav-item {
-    font-size: 1vw; /* Зменшуємо розмір тексту навігаційних елементів */
-}
-
-.about {
-    font-size: 25px; /* Зменшуємо розмір тексту про мене */
-}
-
 /* Додамо медіа-запит для навігаційної панелі та про мене */
 @media (min-width: 768px) and (max-width: 1024px) {
     .navigate {
@@ -30,14 +17,18 @@
 @media (orientation: portrait) {
       .navigate {
         gap: 25px;
+          height: 10%;
+          weight: 90%;
+          
     }
     
     .nav-item {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .about {
         font-size: 15px;
+        
     }
 }
 
