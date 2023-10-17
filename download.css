@@ -92,7 +92,10 @@ body, html {
         font-weight: 400;
         word-wrap: break-word;
     }
-        
+    .download-options .download-button a {
+        color: white;
+    }
+    
         .download-button.pdf {
             background-color: #0073ff;
         }
@@ -177,7 +180,11 @@ body, html {
             font-weight: 400;
             word-wrap: break-word;
         }
-        
+    
+    .download-options .download-button a {
+        color: white;
+    }
+    
         .download-button.pdf {
             background-color: #0073ff;
         }
@@ -262,6 +269,10 @@ body, html {
             font-family: 'Dancing Script';
             font-weight: 400;
             word-wrap: break-word;
+        }
+
+        .download-options .download-button a {
+            color: white;
         }
         
         .download-button.pdf {
